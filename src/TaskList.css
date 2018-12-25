@@ -1,0 +1,31 @@
+.container{
+    position: absolute;
+    float: left;
+    left:40%;
+    width: 20%;
+}
+.task{
+    margin: 4px;
+    background-color: lightgrey;
+    list-style: none;
+    height:40px;
+    box-shadow: 2px 1px lightgrey;
+    cursor:pointer;
+}
+.thirdtask{
+    margin: 4px;
+    background-color: limegreen;
+    list-style: none;
+    height:40px;
+    box-shadow: 2px 1px limegreen;
+    cursor:pointer;
+}
+input{
+    margin:4px;
+    width:60%;
+    height:20px;
+}
+button{
+    width:15%;
+    height:30px;
+}

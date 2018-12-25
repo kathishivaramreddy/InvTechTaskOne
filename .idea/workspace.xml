@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="396a0c81-010c-4808-bfc1-6740aa3a793e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskList.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,25 +26,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TaskList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="484">
+              <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TaskList.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TaskList.test.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -74,7 +91,9 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/TaskList.test.js" />
         <option value="$PROJECT_DIR$/src/TaskList.js" />
+        <option value="$PROJECT_DIR$/src/TaskList.css" />
       </list>
     </option>
   </component>
@@ -115,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545748778390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545751080278" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -136,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.TaskList.should display list on submit">
     <configuration name="App.should render TaskList" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -151,8 +170,23 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="TaskList.should display list on submit" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/TaskList.test.js" />
+      <test-names>
+        <test-name value="TaskList" />
+        <test-name value="should display list on submit" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.TaskList.should display list on submit" />
         <item itemvalue="Jest.App.should render TaskList" />
       </list>
     </recent_temporary>
@@ -167,14 +201,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545746597591</updated>
-      <workItem from="1545746599135" duration="2162000" />
+      <workItem from="1545746599135" duration="4463000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="App_should_render_TaskList - 2018.12.25 at 19h 45m 07s.xml">
-      <configuration name="App.should render TaskList" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="App_should_render_TaskList - 2018.12.25 at 19h 46m 48s.xml">
       <configuration name="App.should render TaskList" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -187,9 +218,27 @@
     <history-entry file="App_should_render_TaskList - 2018.12.25 at 19h 51m 49s.xml">
       <configuration name="App.should render TaskList" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="TaskList_should_display_list_on_submit - 2018.12.25 at 20h 19m 57s.xml">
+      <configuration name="TaskList.should display list on submit" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TaskList_should_display_list_on_submit - 2018.12.25 at 20h 21m 18s.xml">
+      <configuration name="TaskList.should display list on submit" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TaskList_should_display_list_on_submit - 2018.12.25 at 20h 21m 38s.xml">
+      <configuration name="TaskList.should display list on submit" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TaskList_should_display_list_on_submit - 2018.12.25 at 20h 24m 22s.xml">
+      <configuration name="TaskList.should display list on submit" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TaskList_should_display_list_on_submit - 2018.12.25 at 20h 24m 36s.xml">
+      <configuration name="TaskList.should display list on submit" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TaskList_should_display_list_on_submit - 2018.12.25 at 20h 25m 12s.xml">
+      <configuration name="TaskList.should display list on submit" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2162000" />
+    <option name="totallyTimeSpent" value="4463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -237,19 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskList.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -260,10 +296,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TaskList.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TaskList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="484">
+          <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TaskList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
