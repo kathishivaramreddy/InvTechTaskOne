@@ -14,4 +14,12 @@ describe('TaskList',() => {
         expect(wrapper.exists('li')).toEqual(true);
         expect(wrapper.find('li').text()).toBe('Task1')
     })
+
+    it('should remove task on click', () => {
+        const wrapper = mount(<TaskList/>);
+        wrapper.find('input').simulate('change',{target:{value:'Task2'}});
+        wrapper.find('form').simulate('submit');
+        wrapper.find('li').simulate('click');
+        expect(wrapper.exists('li')).toEqual(false)
+    })
 });

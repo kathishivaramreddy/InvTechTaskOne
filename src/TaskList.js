@@ -32,7 +32,7 @@ export class TaskList extends React.Component{
                 currentId:this.state.currentId+1
             }
         });
-        console.log(this.state.tasks)
+        document.getElementById("inputbox").focus();
     };
 
     getClassName = (taskNumber) => {
@@ -61,7 +61,7 @@ export class TaskList extends React.Component{
 
                 <div className="main-content">
                     <form onSubmit={(e) => this.handleAddTask(e)}>
-                        <input value={this.state.input} onChange={this.updateInput}/>
+                        <input id="inputbox" value={this.state.input} onChange={this.updateInput}/>
                         <button type='submit' >ADD</button>
                     </form>
 
